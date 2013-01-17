@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Savings and Deposits">
+      <UniqueIdentifier>{522561e9-6da2-47fb-ac56-a97046a8b18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Savings and Deposits\Accounts">
+      <UniqueIdentifier>{7c1f6d20-3829-4a99-9c5b-3779e647ae1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Savings and Deposits">
+      <UniqueIdentifier>{7f7e7d13-57e3-43f0-9821-0ba172185051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Savings and Deposits\Accounts">
+      <UniqueIdentifier>{e0073df0-1037-4af0-ae6d-2f27644da3cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentAccount.h">
+      <Filter>Header Files\Savings and Deposits\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="JuniorAccount.h">
+      <Filter>Header Files\Savings and Deposits\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="CorporateSavings.h">
+      <Filter>Header Files\Savings and Deposits\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSavings.h">
+      <Filter>Header Files\Savings and Deposits\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\Savings and Deposits</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files\Savings and Deposits</Filter>
+    </ClInclude>
+    <ClInclude Include="Loan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentAccount.cpp">
+      <Filter>Source Files\Savings and Deposits\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="JuniorAccount.cpp">
+      <Filter>Source Files\Savings and Deposits\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="CorporateSavings.cpp">
+      <Filter>Source Files\Savings and Deposits\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentSavings.cpp">
+      <Filter>Source Files\Savings and Deposits\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\Savings and Deposits</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files\Savings and Deposits</Filter>
+    </ClCompile>
+    <ClCompile Include="Loan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
